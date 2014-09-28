@@ -13,7 +13,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 
-public class ClueTests {
+public class ConfigTests {
 	private static ClueGame game;
 	private static Board board;
 
