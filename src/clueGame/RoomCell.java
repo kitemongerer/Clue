@@ -3,18 +3,30 @@ package clueGame;
 public class RoomCell extends BoardCell {
 
 	public enum DoorDirection {LEFT, RIGHT, UP, DOWN, NONE};
-	DoorDirection doorDirection;
-	char roomInitial;
+	private DoorDirection doorDirection;
+	private char roomInitial;
 	
-	public RoomCell(int c, int r) {
-		super(c, r);
-		// TODO Auto-generated constructor stub
+	public RoomCell(int row, int col, char roomInitial) {
+		super(row, col);
+		this.roomInitial = roomInitial;
 	}
 
 	
 	@Override
 	public boolean isRoom() {
 		return true;
+	}
+	
+	@Override
+	public boolean isDoorway() {
+		if(doorDirection == DoorDirection.NONE) {
+			return false;
+		}
+		return true;
+	}
+	
+	public void setDoorDirection(DoorDirection doorDirection) {
+		this.doorDirection = doorDirection;
 	}
 	
 	public DoorDirection getDoorDirection() {

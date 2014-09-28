@@ -16,7 +16,7 @@ public class BoardCell {
 	}
 	
 	public int getIndex() {
-		return IntBoard.NUM_ROWS * row + col;
+		return IntBoard.numRows * row + col;
 	}
 	
 	 public boolean equals(BoardCell cell) {

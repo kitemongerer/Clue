@@ -2,8 +2,8 @@ package clueGame;
 
 public class WalkwayCell extends BoardCell {
 		
-	public WalkwayCell(int c, int r) {
-		super(c, r);
+	public WalkwayCell(int row, int col) {
+		super(row, col);
 		// TODO Auto-generated constructor stub
 	}
 

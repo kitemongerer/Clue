@@ -10,8 +10,8 @@ public class IntBoard {
 	private HashMap<Integer, LinkedList<BoardCell>> adjacencies;
 	private Set<BoardCell> visited;
 	private BoardCell[][] board;
-	public static final int NUM_ROWS = 4;
-	public static final int NUM_COLS = 4;
+	public static final int numRows = 4;
+	public static final int numCols = 4;
 	//LinkedList<BoardCell> linkedlist = new LinkedList<BoardCell>();
 	//BoardCell currCell = new BoardCell();
 	
@@ -19,9 +19,9 @@ public class IntBoard {
 		targets = new HashSet<BoardCell>();
 		adjacencies = new HashMap<Integer, LinkedList<BoardCell>>();
 		visited = new HashSet<BoardCell>();
-		board = new BoardCell[NUM_COLS][NUM_ROWS];
-		for (int c = 0; c < NUM_COLS; c++) {
-			for (int r = 0; r < NUM_ROWS; r++) {
+		board = new BoardCell[numCols][numRows];
+		for (int c = 0; c < numCols; c++) {
+			for (int r = 0; r < numRows; r++) {
 				board[c][r] = new BoardCell(c, r);
 			}
 		}
@@ -29,19 +29,19 @@ public class IntBoard {
 	}
 
 	public void calcAdjacencies() {
-		for (int c = 0; c < NUM_COLS; c++) {
-			for (int r = 0; r < NUM_ROWS; r++) {
+		for (int c = 0; c < numCols; c++) {
+			for (int r = 0; r < numRows; r++) {
 				LinkedList<BoardCell> temp = new LinkedList<BoardCell>();
 				if (c - 1 > -1) {
 					temp.add(getCell(c - 1, r));
 				}
-				if (c + 1 < NUM_COLS) {
+				if (c + 1 < numCols) {
 					temp.add(getCell(c + 1, r));
 				}
 				if (r - 1 > -1) {
 					temp.add(getCell(c, r - 1));
 				}
-				if (r + 1 < NUM_ROWS) {
+				if (r + 1 < numRows) {
 					temp.add(getCell(c, r + 1));
 				}
 				adjacencies.put(getCell(c, r).getIndex(), temp);
