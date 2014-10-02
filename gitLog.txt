@@ -1,0 +1,55 @@
+Zheng LI definitely did his part we did pair programming on my computer :)
+
+commit 6cf2a07ab05ad69cc15804a31b0972acaee26ba3
+Author: Max Eshleman <meshlema@mines.edu>
+Date:   Sat Sep 27 18:50:39 2014 -0600
+
+    "Passed target and adjacency tests"
+
+commit b9b2d9f22b8c3cc0fc91968b160c5b68613787ca
+Author: Max Eshleman <meshlema@mines.edu>
+Date:   Sat Sep 27 18:50:02 2014 -0600
+
+    Completed failing tests for targets and adjacency
+
+commit d5ae9a3cc80225a8ca137e8a85b0185124000cfc
+Author: Max Eshleman <meshlema@mines.edu>
+Date:   Sat Sep 27 18:18:37 2014 -0600
+
+    Completed passing tests for config files
+
+commit c32b5719abc97c25ebc309ee91257d84e08fa1b5
+Author: Max Eshleman <meshlema@mines.edu>
+Date:   Thu Sep 25 17:03:12 2014 -0600
+
+    "Added Test Methods"
+
+commit 8e083556f377135993a54020b21a010c534de6ea
+Author: Max Eshleman <meshlema@mines.edu>
+Date:   Thu Sep 25 15:49:09 2014 -0600
+
+    "Added class stubs for test creation"
+
+commit 77ecbd343f8d74c1d7b408c91827a2018fd8f72c
+Author: Max Eshleman <meshlema@mines.edu>
+Date:   Thu Sep 25 12:12:58 2014 -0600
+
+    "Added empty classes and instructor files"
+
+commit dd67568ef9e50ce5610e0f7a9cc68a78ac5282d3
+Author: Max Eshleman <meshlema@mines.edu>
+Date:   Thu Sep 25 12:09:43 2014 -0600
+
+    "Added .gitignore file"
+
+commit 5ccc2c65406a5d9ddadcb2bfb31db0db3678d09d
+Author: Max Eshleman <meshlema@mines.edu>
+Date:   Thu Sep 25 12:04:57 2014 -0600
+
+    Initial setup with config files
+
+commit 2c2a15c4a8e10a87a01681607bf784daecb2964b
+Author: kitemongerer <meshlema@mines.edu>
+Date:   Thu Sep 25 11:52:03 2014 -0600
+
+    Initial commit

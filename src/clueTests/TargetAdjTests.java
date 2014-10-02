@@ -141,7 +141,7 @@ public class TargetAdjTests {
 	}
 	
 	
-	//LIGHT BLUE - test 1 step on walkways
+	//LIGHT YELLOW - test 1 step on walkways
 	@Test
 	public void testTargetsOneStep() {
 		board.calcTargets(1, 6, 1);
@@ -158,7 +158,7 @@ public class TargetAdjTests {
 		Assert.assertTrue(targets.contains(board.getCellAt(3, 1)));			
 	}
 	
-	//LIGHT BLUE - test 2 steps on walkways
+	//LIGHT YELLOW - test 2 steps on walkways
 	@Test
 	public void testTargetsTwoSteps() {
 		board.calcTargets(21, 6, 2);
@@ -174,7 +174,7 @@ public class TargetAdjTests {
 		Assert.assertTrue(targets.contains(board.getCellAt(4, 21)));
 	}
 	
-	//LIGHT BLUE - test 4 steps on walkways
+	//LIGHT YELLOW - test 4 steps on walkways
 	@Test
 	public void testTargetsFourSteps() {
 		board.calcTargets(0, 15, 4);
